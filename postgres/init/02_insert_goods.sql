@@ -1,0 +1,12 @@
+insert into basic_fare (destination, amount) values ('shinosaka', 8910);
+insert into basic_fare (destination, amount) values ('himeji', 10010);
+insert into basic_super_express_surcharge (train_type, seat_type, destination, amount) values ('nozomi', 'free', 'shinosaka', 5810);
+insert into basic_super_express_surcharge (train_type, seat_type, destination, amount) values ('nozomi', 'free', 'himeji', 6450);
+insert into basic_super_express_surcharge (train_type, seat_type, destination, amount) values ('nozomi', 'reserved', 'shinosaka', 5810);
+insert into basic_super_express_surcharge (train_type, seat_type, destination, amount) values ('nozomi', 'reserved', 'himeji', 6450);
+insert into basic_super_express_surcharge (train_type, seat_type, destination, amount) values ('hikari', 'free', 'shinosaka', 5490);
+insert into basic_super_express_surcharge (train_type, seat_type, destination, amount) values ('hikari', 'free', 'himeji', 5920);
+insert into basic_super_express_surcharge (train_type, seat_type, destination, amount) values ('hikari', 'reserved', 'shinosaka', 5490);
+insert into basic_super_express_surcharge (train_type, seat_type, destination, amount) values ('hikari', 'reserved', 'himeji', 5920);
+insert into business_kilometer (destination, distance) values ('shinosaka', 553);
+insert into business_kilometer (destination, distance) values ('himeji', 644);
