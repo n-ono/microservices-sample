@@ -1,0 +1,8 @@
+[{
+    "name": "price_calculation",
+    "image": "your_image_url",
+    "portMappings": [{
+        "containerPort": 8080,
+        "hostPort": 8080
+    }]
+}]

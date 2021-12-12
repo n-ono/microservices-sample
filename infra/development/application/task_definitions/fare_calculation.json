@@ -1,0 +1,18 @@
+[{
+    "name": "fare_calculation",
+    "image": "your_image_url",
+    "portMappings": [{
+        "containerPort": 8080,
+        "hostPort": 8080
+    }],
+    "healthCheck": {
+        "command": [
+            "CMD-SHELL",
+            "curl -f http://localhost:8080/fare_calculation/health || exit 1"
+        ],
+        "interval": 15,
+        "retries": 3,
+        "startPeriod": 60,
+        "timeout": 10
+    }
+}]
